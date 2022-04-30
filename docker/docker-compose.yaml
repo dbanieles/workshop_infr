@@ -4,8 +4,6 @@ services:
 
   stress-test:
     image: stress-test-container:latest
-    volumes:
-    - ./templates:/etc/nginx/templates
     ports:
     - "8087:8080"
     environment:
